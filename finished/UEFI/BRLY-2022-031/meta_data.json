@@ -1,0 +1,6 @@
+{
+    "vulnerability_type": [
+        "Stack-memory-leak-vulnerability"
+    ],
+    "vulnerable": true
+}

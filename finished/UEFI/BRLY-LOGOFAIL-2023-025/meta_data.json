@@ -1,0 +1,6 @@
+{
+    "vulnerability_type": [
+        "Memory-contents-leak-disclosure"
+    ],
+    "vulnerable": true
+}

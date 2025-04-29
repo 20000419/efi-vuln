@@ -1,0 +1,6 @@
+{
+    "vulnerability_type": [
+        "Remote-code-execution"
+    ],
+    "vulnerable": true
+}

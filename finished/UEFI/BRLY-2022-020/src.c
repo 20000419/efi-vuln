@@ -1,0 +1,36 @@
+EFI_STATUS sub_21468()
+{
+  // [COLLAPSED LOCAL DECLARATIONS]
+
+  memset(MeSetupStorageData, 0, 0x11);
+  memset(MeBackupStorageData, 0, 0x11);
+  DataSize = 1250;
+  gRT->GetVariable(aSetup, &DRIVER_SAMPLE_FORM_SET_GUID, 0, &DataSize, Data);
+  v4 = gBS->LocateProtocol(&ProprietaryProtocol_10, 0, &Interface);
+  result = sub_2D178(v0);
+  if ( !result && v4 >= 0 )
+  {
+    DataSize = 17;
+    gRT->GetVariable(L"MeSetupStorage", &gVariableGuid, 0, &DataSize, MeSetupStorageData);
+    gRT->GetVariable(L"MeBackupStorage", &gVariableGuid, 0, &DataSize, MeBackupStorageData);
+    DataSize = 54;
+    gRT->GetVariable(aMesetup, &gVariableGuid, 0, &DataSize, &unk_119A20);
+    sub_29338(v11);
+    if...
+    if...
+    v2 = MeBackupStorageData[1];
+    if...
+    if...
+    if...
+    v3 = MeBackupStorageData[6];
+    if...
+    if...
+    if...
+    if...
+    if...
+    if...
+    gRT->SetVariable(L"MeBackupStorage", &gVariableGuid, 2, 0x11, MeSetupStorageData);
+    return gRT->SetVariable(aSetup, &DRIVER_SAMPLE_FORM_SET_GUID, 2, 0x4E2, Data);
+  }
+  return result;
+}

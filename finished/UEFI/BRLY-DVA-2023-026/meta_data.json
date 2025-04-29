@@ -1,0 +1,6 @@
+{
+    "vulnerability_type": [
+        "SMM-memory-corruption"
+    ],
+    "vulnerable": true
+}
