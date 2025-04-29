@@ -1,0 +1,6 @@
+{
+    "vulnerability_type": [
+        "Arbitrary-code-execution-vulnerability"
+    ],
+    "vulnerable": true
+}

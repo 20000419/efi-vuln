@@ -1,0 +1,6 @@
+{
+    "vulnerability_type": [
+        "Arbitrary-write-vulnerability"
+    ],
+    "vulnerable": true
+}

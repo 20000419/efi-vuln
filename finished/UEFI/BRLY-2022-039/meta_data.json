@@ -1,0 +1,6 @@
+{
+    "vulnerability_type": [
+        "SMM-memory-contents-leak/information-disclosure-vulnerability"
+    ],
+    "vulnerable": true
+}
