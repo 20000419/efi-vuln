@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "efi-vuln: A Patch-Verified Dataset of UEFI Vulnerabilities"
+message: "If you use this dataset, please cite our paper (currently under submission)."
+type: dataset
+authors:
+  - name: "Author names withheld for anonymous review"
+license: MIT
