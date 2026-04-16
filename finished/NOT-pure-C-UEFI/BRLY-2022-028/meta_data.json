@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Absence-or-incomplete-applying-the-Return-Stack-Buffer-vulnerability"
-    ],
-    "vulnerable": true
-}

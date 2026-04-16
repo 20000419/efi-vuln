@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Stored-cross-site-scripting-vulnerability"
-    ],
-    "vulnerable": true
-}

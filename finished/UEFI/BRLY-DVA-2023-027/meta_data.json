@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "SMM-arbitrary-code-execution"
-    ],
-    "vulnerable": true
-}

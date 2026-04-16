@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Stack-buffer-overflow"
-    ],
-    "vulnerable": true
-}

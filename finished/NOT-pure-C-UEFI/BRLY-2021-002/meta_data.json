@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Missing-coverage-with-Boot-Guard-protected-ranges-vulnerability"
-    ],
-    "vulnerable": true
-}

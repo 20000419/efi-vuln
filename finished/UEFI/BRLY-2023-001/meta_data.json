@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Command-injection-vulnerability"
-    ],
-    "vulnerable": true
-}

@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Heap-Out-of-bounds-Read"
-    ],
-    "vulnerable": true
-}

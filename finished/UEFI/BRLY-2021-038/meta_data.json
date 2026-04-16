@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Heap-buffer-overflow-vulnerability"
-    ],
-    "vulnerable": true
-}

@@ -1,9 +1,0 @@
-$ efi-readvar -v PK
-Variable PK, length 862
-PK: List 0, type X509
-    Signature 0, size 834, owner 26dc4851-195f-4ae1-9a19-fbf883bbb35e
-        Subject:
-            CN=DO NOT TRUST - AMI Test PK
-        Issuer:
-            CN=DO NOT TRUST - AMI Test PK
-

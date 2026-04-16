@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Arbitrary-calls-to-SetVariable-with-unsanitized-arguments-vulnerability"
-    ],
-    "vulnerable": true
-}

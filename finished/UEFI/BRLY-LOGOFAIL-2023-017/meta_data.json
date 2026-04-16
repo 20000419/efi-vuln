@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "Out-of-bounds-Write-vulnerability"
-    ],
-    "vulnerable": true
-}

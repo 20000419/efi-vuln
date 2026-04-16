@@ -1,6 +1,0 @@
-{
-    "vulnerability_type": [
-        "The-stack-memory-contents-leak/information-disclosure-vulnerability"
-    ],
-    "vulnerable": true
-}
