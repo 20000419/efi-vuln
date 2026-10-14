@@ -171,7 +171,7 @@ IEEE CSCloud 2026**. Final DOI and proceedings pagination are pending.
 
 Dataset metadata is available in [CITATION.cff](CITATION.cff); the associated
 implementation is [EFIhunter](https://github.com/20000419/efihunter).
-The `cscloud2026-revision-20261014` tag preserves the dataset snapshot accompanying
+The `cscloud2026-revision-20261014.1` tag preserves the dataset snapshot accompanying
 this manuscript revision. This update changes documentation and citation metadata
 only; sample code, labels, pairing, and statistics are unchanged.
 
