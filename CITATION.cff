@@ -1,7 +1,20 @@
 cff-version: 1.2.0
 title: "efi-vuln: A Patch-Verified Dataset of UEFI Vulnerabilities"
-message: "If you use this dataset, please cite our paper (currently under submission)."
+message: "See README for the accompanying paper, accepted as a Regular Paper at IEEE CSCloud 2026; final publication metadata is pending."
 type: dataset
 authors:
-  - name: "Author names withheld for anonymous review"
+  - family-names: Liu
+    given-names: Zhenyu
+  - family-names: Chen
+    given-names: Zhifeng
+  - family-names: Li
+    given-names: Qingbao
+  - family-names: Cao
+    given-names: Fei
+  - family-names: Yang
+    given-names: Linzheng
+  - family-names: Wang
+    given-names: Chaobing
 license: MIT
+repository-code: "https://github.com/20000419/efi-vuln"
+version: "cscloud2026-revision-20261014"

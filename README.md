@@ -153,17 +153,30 @@ with (root / "sample_index.csv").open(newline="", encoding="utf-8") as f:
         print(sample_id, fixed_id, vuln_type, len(vuln_code), len(fixed_code))
 ```
 
-## Citation
+## Accompanying paper and citation
+
+The accompanying paper **Dynamic Call Context: LLM-Driven Vulnerability Detection
+in Closed-Source Binaries**, by Zhenyu Liu, Zhifeng Chen, Qingbao Li, Fei Cao,
+Linzheng Yang, and Chaobing Wang, has been **accepted as a Regular Paper at
+IEEE CSCloud 2026**. Final DOI and proceedings pagination are pending.
+
 ```bibtex
-@article{anonymous2026efivuln,
-  title={efi-vuln: A Patch-Verified Dataset of UEFI Vulnerabilities},
-  note={Under submission},
-  year={2026}
+@unpublished{liu2026dynamiccallcontext,
+  author = {Zhenyu Liu and Zhifeng Chen and Qingbao Li and Fei Cao and Linzheng Yang and Chaobing Wang},
+  title = {Dynamic Call Context: LLM-Driven Vulnerability Detection in Closed-Source Binaries},
+  note = {Accepted as a Regular Paper at IEEE CSCloud 2026},
+  year = {2026}
 }
 ```
+
+Dataset metadata is available in [CITATION.cff](CITATION.cff); the associated
+implementation is [EFIhunter](https://github.com/20000419/efihunter).
+The `cscloud2026-revision-20261014` tag preserves the dataset snapshot accompanying
+this manuscript revision. This update changes documentation and citation metadata
+only; sample code, labels, pairing, and statistics are unchanged.
 
 ## License
 MIT
 
 ## Contact
-Available upon de-anonymization after paper acceptance.
+For dataset questions, please [open a GitHub issue](https://github.com/20000419/efi-vuln/issues).
